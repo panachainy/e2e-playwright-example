@@ -8,5 +8,9 @@
   "devDependencies": {
     "@playwright/test": "^1.31.2"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "playwright test",
+    "report": "npx playwright show-report",
+    "gen": "npx playwright codegen www.google.co.th"
+  }
 }
